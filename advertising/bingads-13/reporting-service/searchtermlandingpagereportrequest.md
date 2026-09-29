@@ -13,6 +13,9 @@ Defines an AI Max search term landing page report request. Use this request with
 [SubmitGenerateReport](submitgeneratereport.md) operation to generate a report that includes the
 search term, delivered headline, and landing page URL for AI Max-enabled campaigns.
 
+For an end-to-end setup and reporting overview, see
+[AI Max Campaigns](../guides/ai-max.md).
+
 The report excludes rows with zero clicks. If you request the *Headline* column, the report also
 excludes rows for which a supported short, long, or auto-generated headline asset cannot be
 resolved.
