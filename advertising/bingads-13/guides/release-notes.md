@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/7/2026
+ms.date: 9/29/2026
 description: Get information about changes to Bing Ads API Version 13 by month. 
 ---
 # Bing Ads API Release Notes
@@ -36,12 +36,12 @@ See below for information about changes to Bing Ads API Version 13 by month.
 - **Campaign Management API**:
   - New LinkedIn segment targeting interfaces: [CustomLinkedInCriterion](../campaign-management-service/customlinkedincriterion.md) and [GetLinkedInSegments](../campaign-management-service/getlinkedinsegments.md).
 - **Reporting API**:
-  - New report: [SearchTermLandingPageReportRequest](../reporting-service/searchtermlandingpagereportrequest.md).
+  - New AI Max report: [SearchTermLandingPageReportRequest](../reporting-service/searchtermlandingpagereportrequest.md). The report maps search terms to landing pages and excludes rows with zero clicks.
 
 ### <a name="bulkservice-august2026"></a>Bulk Service
 
 - Added [AssetGroupNegativeKeywords](../bulk-service/downloadentity.md#assetgroupnegativekeywords) to *DownloadEntity*.
-- Added the *BulkAdGroupUrlTarget* mapping.
+- Added the [*BulkAdGroupUrlTarget*](../bulk-service/ad-group-url-target.md) mapping and the [*AdGroupUrlTargets*](../bulk-service/downloadentity.md#adgroupurltargets) download selector for AI Max URL inclusions.
 - Added the *BulkCampaignNegativeDeviceCriterion* mapping to the .NET SDK.
 
 ### <a name="sdk-august2026"></a>Bing Ads API SDK Updates
@@ -69,7 +69,7 @@ Other SDK updates include:
 
 ### <a name="bulkservice-may2026"></a>Bulk Service
 
-- Add [AISearchSetting](../bulk-service/campaign.md#aisearchsetting) to *BulkCampaign* mapping.
+- Added AI Max ([AISearchSetting](../campaign-management-service/aisearchsetting.md) in Campaign Management V13) fields to the [Bulk Campaign](../bulk-service/campaign.md#aimaxenabled) mapping.
 - Add [BaseDomainSetting](../bulk-service/ad-group.md#basedomainsetting) to *BulkAdGroup* mapping.
 - New goal type: *BulkAppDownloadGoal*.
 - New mapping: [BulkAccountContentNegativeKeywordList](../bulk-service/account-content-negative-keyword-list.md)

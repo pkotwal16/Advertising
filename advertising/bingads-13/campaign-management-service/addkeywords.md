@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/29/2026
 zone_pivot_groups: api-reference
 description: Adds one or more keywords to an ad group.
 dev_langs: 
@@ -16,6 +16,9 @@ dev_langs:
 ---
 # AddKeywords Service Operation - Campaign Management
 Adds one or more keywords to an ad group.
+
+Advertisers cannot create the *AIOptimized* system keyword used by AI Max search term matching. An
+unsupported or internal match type is rejected as *InvalidMatchTypes*.
 
 ::: zone pivot="soap"
 

@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/29/2026
 description: Defines a campaign.
 ---
 # Campaign Data Object - Campaign Management
@@ -274,6 +274,11 @@ Defines a campaign.
 ```
 
 -----
+
+For Search campaigns, *Settings* can include [AISearchSetting](aisearchsetting.md), the V13
+contract for AI Max. The setting is returned only when you request
+[CampaignAdditionalField.AISearchSetting](campaignadditionalfield.md#aisearchsetting). See
+[AISearchSetting](aisearchsetting.md#remarks) for eligibility, defaults, and validation.
 
 ## <a name="elements"></a>Elements
 

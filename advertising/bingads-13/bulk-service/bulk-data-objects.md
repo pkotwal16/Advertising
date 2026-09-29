@@ -5,11 +5,14 @@ ms.subservice: bulk-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/29/2026
 description: Data objects reference for the Bulk service.
 ---
 # Bulk Data Objects
 The Bulk service defines the following data objects.
+
+For the SDK record that uploads and downloads AI Max URL inclusions, see
+[Ad Group Url Target](ad-group-url-target.md) (*BulkAdGroupUrlTarget*).
 
 |Data Object|Description|
 |---|---|

@@ -5,11 +5,15 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/29/2026
 description: Defines a biddable criterion that you want applied to the specified ad group.
 ---
 # BiddableAdGroupCriterion Data Object - Campaign Management
 Defines a biddable criterion that you want applied to the specified ad group.
+
+For an [AI Max URL inclusion](webpage.md#ai-max-url-inclusions), do not set
+*CriterionBid*, *TrackingUrlTemplate*, *UrlCustomParameters*, or *FinalUrlSuffix*. These options are
+not supported and URL options return error 6910, *UrlOptionsNotSupportedForAIMaxUrlTarget*.
 
 ## Syntax
 
@@ -218,4 +222,3 @@ Microsoft Advertising will accept the first 8 [CustomParameter](customparameter.
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
-

@@ -5,7 +5,7 @@ ms.subservice: campaign-management-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/29/2026
 description: Defines a webpage parameter that contains a list of webpage conditions or criteria that help determine whether you want to show dynamic search ads.
 ---
 # Webpage Data Object - Campaign Management
@@ -15,6 +15,19 @@ The *Webpage* criterion can be included within [BiddableAdGroupCriterion](biddab
 
 A Webpage criterion can only be created within campaigns that have a [DynamicSearchAdsSetting](dynamicsearchadssetting.md) or [PerformanceMaxSetting](performancemaxsetting.md).
 - Search campaigns if the [CampaignType](campaign.md#campaigntype) is set to "Search", if the [ExperimentId](campaign.md#experimentid) element is not set, and if the [AdGroupType](adgroup.md#adgrouptype) is set to "SearchDynamic".   
+
+## <a name="ai-max-url-inclusions"></a>AI Max URL inclusions
+
+For an eligible standard Search ad group in an AI Max-enabled Search campaign, a biddable
+*Webpage* criterion is an AI Max URL inclusion rule. A *SearchDynamic* ad group continues to use
+dynamic search ads behavior, including in a campaign that also has AI Max enabled. Negative
+*Webpage* criteria also retain their existing dynamic search ads behavior and are not AI Max URL
+inclusions.
+
+An AI Max URL inclusion requires one to three conditions. It does not support a criterion bid,
+tracking template, custom parameters, or final URL suffix. See
+[WebpageParameter](webpageparameter.md#conditions) and
+[BiddableAdGroupCriterion](biddableadgroupcriterion.md) for details.
 
 ## Syntax
 
@@ -74,4 +87,3 @@ The [Webpage](webpage.md) object derives from the [Criterion](criterion.md) obje
 ## Requirements
 Service: [CampaignManagementService.svc v13](https://campaign.api.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v13/CampaignManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/CampaignManagement/v13  
-

@@ -5,11 +5,17 @@ ms.subservice: reporting-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 11/13/2024
+ms.date: 9/29/2026
 description: Defines a search term landing page report request.
 ---
 # SearchTermLandingPageReportRequest Data Object - Reporting
-Defines a search term landing page report request. Use this request with the [SubmitGenerateReport](submitgeneratereport.md) operation to generate a report that includes the search term, delivered headline, and landing page URL for each ad impression.
+Defines an AI Max search term landing page report request. Use this request with the
+[SubmitGenerateReport](submitgeneratereport.md) operation to generate a report that includes the
+search term, delivered headline, and landing page URL for AI Max-enabled campaigns.
+
+The report excludes rows with zero clicks. If you request the *Headline* column, the report also
+excludes rows for which a supported short, long, or auto-generated headline asset cannot be
+resolved.
 
 ## Syntax
 
@@ -117,4 +123,3 @@ The [SearchTermLandingPageReportRequest](searchtermlandingpagereportrequest.md) 
 ## Requirements
 Service: [ReportingService.svc v13](https://reporting.api.bingads.microsoft.com/Api/Advertiser/Reporting/v13/ReportingService.svc)  
 Namespace: https\://bingads.microsoft.com/Reporting/v13  
-
