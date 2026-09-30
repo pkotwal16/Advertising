@@ -5,16 +5,13 @@ ms.subservice: bulk-api
 ms.topic: "article"
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 11/13/2024
 description: Describes the Ad Group Negative Dynamic Search Ad Target fields in a Bulk file.
 dev_langs:
   - csharp
 ---
 # Ad Group Negative Dynamic Search Ad Target Record - Bulk
 Defines an Ad Group Negative Dynamic Search Ad Target that can be uploaded and downloaded in a bulk file.  
-
-Negative webpage targets continue to use this record in mixed and AI Max-enabled Search campaigns.
-They are not represented as [Ad Group Url Target](ad-group-url-target.md) records.
 
 The Ad Group Negative Dynamic Search Ad Target record can only be created within search campaigns that have valid dynamic search ads settings (comprised of the [Domain Language](campaign.md#domainlanguage), [Dynamic Description Enabled](campaign.md#dynamicdescriptionenabled), [Page Feed Ids](campaign.md#pagefeedids), [Source](campaign.md#source), and [Website](campaign.md#website) fields). The campaign's [Experiment Id](campaign.md#experimentid) must be set and the [Ad Group Type](ad-group.md#adgrouptype) must be set to "SearchDynamic".  
 
@@ -242,3 +239,4 @@ Possible values are *Active*, *Paused*, or *Deleted*.
 **Add:** Optional. The default value is *Active*.  
 **Update:** Optional. If no value is set for the update, this setting is not changed.    
 **Delete:** Required. The Status must be set to *Deleted*.
+
