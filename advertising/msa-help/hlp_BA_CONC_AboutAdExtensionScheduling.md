@@ -7,7 +7,6 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Learn how to set your ad extensions to show during times you specify.
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Set up ad extensions scheduling

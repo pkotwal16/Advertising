@@ -7,7 +7,6 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Add additional information about your business to your ads with ad extensions.
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # About ad extensions
