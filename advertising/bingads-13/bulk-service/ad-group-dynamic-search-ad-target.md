@@ -13,9 +13,9 @@ dev_langs:
 # Ad Group Dynamic Search Ad Target Record - Bulk
 Defines an Ad Group Dynamic Search Ad Target that can be uploaded and downloaded in a bulk file.  
 
-Standard Search ad groups in AI Max-enabled campaigns use
-[Ad Group Url Target](ad-group-url-target.md) for URL inclusions. *SearchDynamic* ad groups continue
-to use this dynamic search ads record, including in campaigns that also have AI Max enabled.
+If an eligible Search campaign includes both AI Max and dynamic search ads settings, it is a mixed
+campaign. Its standard Search ad groups use [Ad Group Url Target](ad-group-url-target.md) for AI Max
+URL inclusions, while its *SearchDynamic* ad groups continue to use this dynamic search ads record.
 
 The Ad Group Dynamic Search Ad Target record can only be created within search campaigns that have valid dynamic search ads settings (comprised of the [Domain Language](campaign.md#domainlanguage), [Dynamic Description Enabled](campaign.md#dynamicdescriptionenabled), [Page Feed Ids](campaign.md#pagefeedids), [Source](campaign.md#source), and [Website](campaign.md#website) fields). The campaign's [Experiment Id](campaign.md#experimentid) must be set and the [Ad Group Type](ad-group.md#adgrouptype) must be set to "SearchDynamic".  
 

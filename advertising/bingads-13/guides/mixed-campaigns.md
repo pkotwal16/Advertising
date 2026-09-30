@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 6/26/2025
+ms.date: 9/29/2026
 description: Setup Mixed Campaigns with Multiple Ad Group Types.
 ---
 # Mixed Campaigns
@@ -17,6 +17,18 @@ You can add dynamic search ad groups to an existing search campaign, unless it i
 
 > [!NOTE]
 > Mixed campaigns are available wherever Dynamic search ads are supported i.e., Australia (AU), Austria (AT), Belgium (BE), Canada (CA), France (FR), Germany (DE), Ireland (IE), Italy (IT), Netherlands (NL), New Zealand (NZ), Spain (ES), Sweden (SE), Switzerland (CH), United Kingdom (UK), and United States (US).  
+
+An account that is eligible for both mixed campaigns and AI Max can include
+[DynamicSearchAdsSetting](../campaign-management-service/dynamicsearchadssetting.md) and
+[AISearchSetting](../campaign-management-service/aisearchsetting.md) in the same Search campaign.
+In this configuration:
+
+- `SearchStandard` ad groups use AI Max behavior and
+  [Ad Group Url Target](../bulk-service/ad-group-url-target.md) records for URL inclusions.
+- `SearchDynamic` ad groups continue to use dynamic search ads behavior and
+  [Ad Group Dynamic Search Ad Target](../bulk-service/ad-group-dynamic-search-ad-target.md) records.
+
+For more information about AI Max, see [AI Max Campaigns](ai-max.md).
 
 ## <a name="campaign-campaignservice"></a>Create the campaign
 You can create a mixed [campaign](../campaign-management-service/campaign.md) with the [AddCampaigns](../campaign-management-service/addcampaigns.md) operation. You can create a maximum of 100 mixed campaigns per ad account. 

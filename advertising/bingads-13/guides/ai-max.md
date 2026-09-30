@@ -192,8 +192,10 @@ A URL `Equals` condition must be the only condition. AI Max URL targets don't su
 tracking template, custom parameters, or final URL suffix. To change the conditions, delete the
 target and add a new one.
 
-A `SearchDynamic` ad group continues to use Dynamic Search Ads targeting even when the campaign
-also has AI Max enabled. Negative webpage targets also remain Dynamic Search Ads target records.
+An eligible mixed campaign can contain both `AISearchSetting` and `DynamicSearchAdsSetting`.
+Its `SearchStandard` ad groups use AI Max URL inclusions, while its `SearchDynamic` ad groups
+continue to use Dynamic Search Ads targeting. Negative webpage targets also remain Dynamic Search
+Ads target records.
 
 ## <a name="brand-inclusions"></a>Use brand inclusions
 

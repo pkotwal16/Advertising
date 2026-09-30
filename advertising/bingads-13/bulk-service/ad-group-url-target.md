@@ -15,9 +15,10 @@ Defines an AI Max URL inclusion that can be uploaded and downloaded in a bulk fi
 
 An *Ad Group Url Target* is a biddable webpage criterion under a standard Search ad group in an
 AI Max-enabled Search campaign. The account must be eligible for AI Max URL inclusions. A
-*SearchDynamic* ad group continues to use the
+mixed campaign can contain both AI Max and dynamic search ads settings. Its *SearchDynamic* ad
+groups continue to use the
 [Ad Group Dynamic Search Ad Target](ad-group-dynamic-search-ad-target.md) record, even in a campaign
-that also has AI Max enabled. Negative webpage targets continue to use
+that has AI Max enabled. Negative webpage targets continue to use
 [Ad Group Negative Dynamic Search Ad Target](ad-group-negative-dynamic-search-ad-target.md).
 
 Download these records by including
