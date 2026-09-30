@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 9/29/2026
+ms.date: 9/30/2026
 description: Get information about changes to Bing Ads API Version 13 by month. 
 ---
 # Bing Ads API Release Notes
@@ -24,6 +24,36 @@ See below for information about changes to Bing Ads API Version 13 by month.
 ### <a name="breaking-mfa-required"></a>Multi-factor authentication API notice
 
 [!INCLUDE[request-header](./includes/mfa-required.md)]
+
+## <a name="september2026"></a>September 2026
+
+- [New API Interfaces](#newapiinterfaces-september2026)
+- [Bulk Service](#bulkservice-september2026)
+- [Bing Ads API SDK Updates](#sdk-september2026)
+
+### <a name="newapiinterfaces-september2026"></a>New API Interfaces
+
+- **Campaign Management API**:
+  - Expanded model coverage for [ObjectiveBased campaigns](../campaign-management-service/campaigntype.md#objectivebased), [UnifiedCampaignFields](../campaign-management-service/campaignadditionalfield.md#unifiedcampaignfields), [CampaignPageFeedSetting](../campaign-management-service/campaignpagefeedsetting.md) ([PageFeedIds](../campaign-management-service/campaignpagefeedsetting.md#pagefeedids)), and [BrandExclusionSetting](../campaign-management-service/brandexclusionsetting.md) ([ProductAdsOptOut](../campaign-management-service/brandexclusionsetting.md#productadsoptout)).
+  - Added [GetCompanyListDetails](../campaign-management-service/getcompanylistdetails.md) and [GetKeywordsByAssetGroupId](../campaign-management-service/getkeywordsbyassetgroupid.md), and expanded client coverage for [GetLinkedInSegments](../campaign-management-service/getlinkedinsegments.md).
+  - Added *AssetGroupId* support to [GetKeywordsByIds](../campaign-management-service/getkeywordsbyids.md#assetgroupid), [UpdateKeywords](../campaign-management-service/updatekeywords.md#assetgroupid), and [DeleteKeywords](../campaign-management-service/deletekeywords.md#assetgroupid) requests.
+  - Added [JobTitle](../campaign-management-service/campaigncriteriontype.md#jobtitle) to *CampaignCriterionType*.
+  - Expanded [GoogleImportOption](../campaign-management-service/googleimportoption.md) with [ImportNCASettings](../campaign-management-service/googleimportoption.md#importncasettings), [UpdateNCASettings](../campaign-management-service/googleimportoption.md#updatencasettings), [UpdateAssetGroups](../campaign-management-service/googleimportoption.md#updateassetgroups), and [UpdateSearchThemesForExistingAssetGroups](../campaign-management-service/googleimportoption.md#updatesearchthemesforexistingassetgroups).
+- **Reporting API**:
+  - Added [AssetGroupId](../reporting-service/assetperformancereportcolumn.md#assetgroupid) and [AdId](../reporting-service/assetperformancereportcolumn.md#adid) to the *AssetPerformanceReportColumn* value set.
+  - Added [HeadlineSource](../reporting-service/searchtermlandingpagereportcolumn.md#headlinesource) to the *SearchTermLandingPageReportColumn* value set.
+- **Customer Management API**:
+  - Added [RON](../customer-management-service/currencycode.md#ron) (Romanian leu) to the *CurrencyCode* value set.
+
+### <a name="bulkservice-september2026"></a>Bulk Service
+
+- Added [Company List](../bulk-service/company-list.md) and [Company Item](../bulk-service/company-item.md) mappings, including [Audience Size](../bulk-service/company-list.md#audiencesize) for company lists and [Company Name](../bulk-service/company-item.md#companyname) for company items.
+- Added [CompanyList](../bulk-service/downloadentity.md#companylist), [CompanyItem](../bulk-service/downloadentity.md#companyitem), [AdGroupUrlTargets](../bulk-service/downloadentity.md#adgroupurltargets), and [AdGroupAIPromptAssociations](../bulk-service/downloadentity.md#adgroupaipromptassociations) to *DownloadEntity*.
+- Added the *BulkAdGroupAIPromptAssociation* mapping.
+
+### <a name="sdk-september2026"></a>Bing Ads API SDK Updates
+
+Microsoft Advertising SDK version 13.0.30 was published on September 29, 2026. For details, see the release notes for the [.NET](https://github.com/BingAds/BingAds-dotNet-SDK/releases/tag/v13.0.30), [Java](https://github.com/BingAds/BingAds-Java-SDK/releases/tag/v13.0.30), [Python](https://github.com/BingAds/BingAds-Python-SDK/releases/tag/v13.0.30), and [PHP REST](https://github.com/BingAds/BingAds-PHP-REST-SDK/releases/tag/v13.0.30) SDKs.
 
 ## <a name="august2026"></a>August 2026
 

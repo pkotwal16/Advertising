@@ -7,7 +7,6 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: If you want to restrict access to only authenticated individuals at your organization, you can require users to sign in with a work account.
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Signing in with a work account

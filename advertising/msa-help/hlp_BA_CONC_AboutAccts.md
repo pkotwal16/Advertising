@@ -7,7 +7,6 @@ author: jonmeyers
 ms.author: jonmeyers
 ms.date: 6/18/2026
 description: Find out how to best organize your accounts and campaigns in Microsoft Advertising to get the most out of your advertising campaign. Learn about account limits, including maximum number of campaigns, ads, targets, and extensions.
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # How should I organize my accounts and campaigns?
