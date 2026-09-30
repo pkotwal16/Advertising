@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 4/8/2026
+ms.date: 9/29/2026
 description: Find out if the Bing Ads API is right for you. 
 ---
 # Bing Ads API Overview
@@ -13,9 +13,9 @@ description: Find out if the Bing Ads API is right for you.
 > [!IMPORTANT]
 > Microsoft Advertising is transitioning from the legacy SOAP API to the REST API.  
 >
-> Starting **October 1, 2026**, all new Microsoft Advertising API features and enhancements will be available **only** through the REST API. Existing SOAP integrations will continue to run during a **6‑month migration window**. The SOAP API is scheduled for **full deprecation on January 31, 2027**.  
+> Based on customer feedback, we’ve updated our transition approach to provide additional flexibility. SOAP integrations will continue to be supported, including access to API features and enhancements, through **January 31, 2027**.
 >
-> To avoid any impact to your API access, we recommend migrating to the REST API before October 1, 2026. SDK and non‑SDK migration guides are available. If you need additional time due to integration complexity or scale, contact Microsoft Advertising support to discuss an extended migration plan. [Learn more](migrate-to-rest.md)
+> The SOAP API is scheduled for full deprecation on **January 31, 2027**. We recommend migrating to REST as soon as possible to ensure a smooth transition and avoid disruption when SOAP is deprecated. SDK and non-SDK migration guides are available. [Learn more](migrate-to-rest.md)
 
 Microsoft Advertising is a pay-per-click (PPC) advertising platform used to display ads based on the keywords used in a user's search query. For advertisers placing a large number of ads or developers building advertising tools, the Bing Ads API provides programmatic access to Microsoft Advertising. Using the Bing Ads API is the most efficient way to manage many large campaigns or to integrate your marketing with other in-house systems. Some organizations may choose a hybrid approach; using the web UI for most tasks but automating reporting or campaign optimization with the API. 
 

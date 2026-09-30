@@ -5,7 +5,7 @@ ms.subservice: guides-api
 ms.topic: article
 author: jonmeyers
 ms.author: jonmeyers
-ms.date: 4/8/2026
+ms.date: 9/29/2026
 description: Various ways to migrate to the REST API.
 ---
 
@@ -14,9 +14,9 @@ description: Various ways to migrate to the REST API.
 > [!IMPORTANT]
 > Microsoft Advertising is transitioning from the legacy SOAP API to the REST API.  
 >
-> Starting **October 1, 2026**, all new Microsoft Advertising API features and enhancements will be available **only** through the REST API. Existing SOAP integrations will continue to run during a **6‑month migration window**. The SOAP API is scheduled for **full deprecation on January 31, 2027**.  
+> Based on customer feedback, we’ve updated our transition approach to provide additional flexibility. SOAP integrations will continue to be supported, including access to API features and enhancements, through **January 31, 2027**.
 >
-> To avoid any impact to your API access, we recommend migrating to the REST API before October 1, 2026. SDK and non‑SDK migration guides are available. If you need additional time due to integration complexity or scale, contact Microsoft Advertising support to discuss an extended migration plan.  
+> The SOAP API is scheduled for full deprecation on **January 31, 2027**. We recommend migrating to REST as soon as possible to ensure a smooth transition and avoid disruption when SOAP is deprecated. SDK and non-SDK migration guides are available below.
 
 ## .NET SDK
 
@@ -47,11 +47,8 @@ Microsoft Advertising is transitioning its API platform from **SOAP** to **REST*
 ### What’s changing
 
 - REST APIs are becoming the standard foundation for all future Microsoft Advertising API development.
-- Existing SOAP integrations will continue to work during the transition period with no immediate impact.
-- New API feature enhancements will be available **only through REST** starting **October 1, 2026**.
+- Existing SOAP integrations will continue to be supported, including access to API features and enhancements, through **January 31, 2027**.
 - The SOAP API is scheduled for **full deprecation on January 31, 2027**.
-- Customers have **6 months from this announcement** to begin migrating from SOAP to REST.
-- Customers with complex or large‑scale integrations can request an extended migration timeline through Microsoft Advertising support or their account team.
 
 ### Why move to the REST API
 
