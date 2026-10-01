@@ -184,7 +184,7 @@ Record Type  |Supported Campaign Types
 [Campaign Negative Remarketing List Association](campaign-negative-remarketing-list-association.md)|Performance Max<br/>Search<br/>Shopping
 [Campaign Negative Similar Remarketing List Association](campaign-negative-similar-remarketing-list-association.md)|Performance Max<br/>Search<br/>Shopping
 [Campaign Negative Site](campaign-negative-site.md)|All  
-[Campaign Negative Webpage](campaign-negative-webpage.md)|Performance Max  
+[Campaign Negative Webpage](campaign-negative-webpage.md)|Performance Max<br/>Search
 [Campaign Price Ad Extension](campaign-price-ad-extension.md)|Performance Max<br/>Search  
 [Campaign Product Audience Association](campaign-product-audience-association.md)|Search<br/>Shopping  
 [Campaign Product Scope](campaign-product-scope.md)|Audience<br/>Shopping  
